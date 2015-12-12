@@ -1,0 +1,180 @@
+{ "dogs": [
+  {
+    "breed": "Labrador Retriever",
+    "classification": "Working",
+    "image": "http://www.shirleys-wellness-cafe.com/images/labrador-retriever-yellow.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+    "breed": "English Bulldog",
+    "classification": "Lazy but playful",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/1/13/Clyde_The_Bulldog.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+
+  },
+  {
+    "breed": "York-Shire Terrior (aka. Yorkie)",
+    "classification": "Tiny",
+    "image": "http://t2.gstatic.com/images?q=tbn:ANd9GcQS2OtidjYafqWsA8pi4YpfRa2OWTzTEn8FBgz2oQDANLCCgQTF",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+    "breed": "Coming Soon",
+    "classification": "Working",
+    "image": "http://www.dngdecaldepot.com/images/1004.JPG",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+    "breed": "German Shepherd",
+    "classification": "Working",
+    "image": "http://www.dogbreedhealth.com/wp-content/uploads/2011/03/german-shepherd.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+    "breed": "Standard Poodle",
+    "classification": "Working",
+    "image": "http://www.purplecowvineyards.com/.a/6a00d83456011969e2019b0242a1d8970d-800wi",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+    "breed": "Golden Retriever",
+    "classification": "Working",
+    "image": "http://images7.alphacoders.com/413/413380.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+    "breed": "Boston Terrier",
+    "classification": "Working",
+    "image": "http://puppydogweb.com/gallery/bostonterriers/bostonterrier_freeman.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+    "breed": "English Mastiff",
+    "classification": "Working",
+    "image": "http://www.dogbreedinfo.com/images7/Mastiff_Tigger.JPG",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+    "breed": "Bull Terrier",
+    "classification": "Working",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoXYWXaXIZ3WWlL8cQfVWYmNGYOBOZe8bBSRNKUHnaHJCwFZI0",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+    "breed": "Beagle",
+    "classification": "Working",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/5/55/Beagle_600.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+   "breed": "Siberian Husky",
+    "classification": "Working",
+    "image": "https://www.petinsurance.com/healthzone/pet-articles/pet-breeds/~/media/All%20PHZ%20Images/Article%20images/SiberianHuskyInSnow.ashx",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+   "breed": "Shih Tzu",
+    "classification": "Working",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS85vRbJEB9izjDZS9FMw0I8wfPScTTVmKSP9T220YFeT4qNTOc",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+  "breed": "Airedale Terrier",
+    "classification": "Working",
+    "image": "http://img3.findthebest.com/sites/default/files/465/media/images/Airedale_Terrier_909589.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+  "breed": "Boxer",
+    "classification": "Working",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/0/01/Boxer_puppy_fawn.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+ "breed": "English Springer Spaniel",
+    "classification": "Working",
+    "image": "http://www.dogbreedinfo.com/images14/EnglishSpringerSpaniel1multipartxF8FF2IMG0124Copy.JPG",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+ "breed": "Newfoundland",
+    "classification": "Working",
+    "image": "http://owninganewfoundlanddog.files.wordpress.com/2012/06/newfdogpuppy.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+"breed": "Coming Soon",
+    "classification": "Working",
+    "image": "http://www.thewideworldofsport.com/Advertise_Here.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+ "breed": "Havanese",
+    "classification": "Toy",
+    "image": "http://www.petwave.com/~/media/Images/Center/breed/Dogs/Toy%20Group/Havanese/Havanese%20dog%20breed.ashx",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+ "breed": "Dachshund",
+    "classification": "Working",
+    "image": "http://cdn.sheknows.com/articles/crave/dog_food.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+  {
+ "breed": "Chihuahua",
+    "classification": "Toy",
+    "image": "http://www.dogbreedinfo.com/images18/ChihuahuaViansBigMacAttackMac33.JPG",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  },
+ {
+ "breed": "Scooby Doo",
+    "classification": "Working",
+    "image": "http://img4.wikia.nocookie.net/__cb20090921172226/hanna-barbera/images/2/24/Scoobydoo.jpg",
+    "popularity": "High",
+    "energy level": "8",
+    "selected": "false"
+  }  
+]}
+

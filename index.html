@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html ng-app="doggyTerestApp">
+  <head>
+    <title>DoggyTerest Powered by: AngularJS</title>
+    <!-- Bootstrap CSS files -->
+    <link rel="stylesheet" href="http://kevinaustin.com/assets/css/normalize.css">
+    <link rel="stylesheet" href="http://kevinaustin.com/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://kevinaustin.com/assets/css/font-awesome.min.css">
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/1.0.18/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.8.0/angularfire.min.js"></script>
+    <!-- Font and Custom CSS files -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Custom JS files including AngularJS -->
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="controller.js"></script>
+  </head>
+  <body ng-controller="myController">
+    <!--Main Banner-->
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1 id="title">D<img src="logo.png" style="height:200px;width:auto;color:white;" alt="logo">ggyTerest</h1>
+        <h2>Unleash your inner Dog and learn about Dogs.</h2>
+        <p>Scroll down to view the Dogs</p>
+        <img src="scroll.png" style="width:70px;height:70px" alt="scron icon"/>
+      </div>
+      <!-- Search site section -->
+      <div class="searchWrapper">
+        <label id="searchLabel">Search your favorite doggy:</label>
+        <input id="search" placeholder="enter text"  type="text" ng-model="searchText"/>
+      </div>
+      <!-- Below is the code that populates the images and dog info. -->
+      <ul>
+        <li id="dogDisplay" ng-repeat="dog in dogs | filter: searchText" ng-click="dog.selected = !dog.selected" ng-class="{'true':'listSelected', 'false': 'listUnselected'} [dog.selected]">
+          <img x-ng-src="{{dog.image}}" alt="dog images"> 
+          <p>Breed: {{dog.breed}} </p>
+          <p>Class: {{dog.classification}} </p> 
+          <p>Popularity: {{dog.popularity}} </p> 
+          <button ng-click="dogs.$remove(dog)"> X </button>                   
+        </li>
+      </ul>
+      <!-- Allows user to add favorite dog -->
+      <div id="addWrapper">
+        <h3 style="color: white">Can't Find Fido?</h3>
+        <h3 style="color: white">Add Your Favorite</h3>
+        <form ng-submit="addNewDogBreed();" class="form-horizontal">
+          <div class="form-group">
+            <div class="col-xs-6">
+              <label>Add new dog breed:</label>
+              <input type="text" class="form-control" size="30" placeholder="add new dog breed" x-ng-model="newDogBreed">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-6">
+              <label>Add new dog class:</label>
+              <input type="text" class="form-control" size="30" placeholder="add new dog class" x-ng-model="newDogClassification">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-6">
+              <label>Add new dog image url:</label>
+              <input type="text" class="form-control" size="30" placeholder="add new dog image url" x-ng-model="newDogImage"><br/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-6">
+              <label>Add new dog popularity:</label>
+              <input type="text" class="form-control" size="30" placeholder="add new dog popularity" x-ng-model="newPopularity">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-6">
+              <label>Add new dog energy level:</label>
+              <input type="text" class="form-control" size="30" placeholder="add new dog energy level" x-ng-model="newEnergyLevel"><br/>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" value="add new Doggy">Submit</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <h4>&copy; DoggyTerest 2015. Developed by: Kevin Austin</h4>
+    </footer>
+    <!-- Javascript files -->
+    <script type="text/javascript" src="http://kevinaustin.com/assets/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="http://kevinaustin.com/assets/js/jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="http://kevinaustin.com/assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
